@@ -1,0 +1,18 @@
+Column Name,Data Type,Description
+order_id,object,Unique identification number for each order
+order_date,datetime64[ns],Date on which the order was placed
+city,object,City where the order was made
+state,object,State where the order was made
+sales_channel,object,Channel through which the sale was made
+store_type,object,Type of store associated with the order
+product_category,object,Category of the product purchased
+quantity,int64,Number of units purchased
+unit_price,int64,Price of one unit of the product
+discount_percent,int64,Discount percentage applied to the order
+net_sales_amount,float64,Final sales amount after applicable discounts
+payment_mode,object,Method used by the customer for payment
+customer_gender,object,Gender of the customer
+customer_age,int64,Age of the customer
+year,int32,Year extracted from the order date
+month,int32,Month number extracted from the order date
+month_name,object,Month name extracted from the order date
